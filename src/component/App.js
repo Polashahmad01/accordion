@@ -1,11 +1,10 @@
 import React, { useState } from 'react';
-import questions from './data';
 
 import data from './data';
 import Question from './Questions';
 
 const App = () => {
-    const [ question, setQuestion ] = useState(data);
+    const [ question ] = useState(data);
 
     return (
         <main>
